@@ -1,36 +1,36 @@
 
 
-const arr = new Array();
+// const arr = new Array();
 
-arr[0] = "Apple";
-arr[1] = "Mango";
-arr[3] = "Banana"
-console.log(arr);
+// arr[0] = "Apple";
+// arr[1] = "Mango";
+// arr[3] = "Banana"
+// console.log(arr);
 
-const arr1 = Array.from("1234");
-console.log(arr1);
+// const arr1 = Array.from("1234");
+// console.log(arr1);
 
 //Array Methods
 
 //push
-const numbers = [10, 20, 30, 40];
-numbers.push(60);
-console.log(numbers);
+// const numbers = [10, 20, 30, 40];
+// numbers.push(60);
+// console.log(numbers);
 
 //pop
 
-numbers.pop();
-console.log(numbers);
+// numbers.pop();
+// console.log(numbers);
 
 //shift -> remove element from the start
 
-numbers.shift();
-console.log(numbers);
+// numbers.shift();
+// console.log(numbers);
 
 //unshift -> add and element to the start
 
-numbers.unshift(10);
-console.log(numbers);
+// numbers.unshift(10);
+// console.log(numbers);
 
 //reverse -> to reverse the array
 
@@ -89,20 +89,65 @@ console.log(numbers);
 // x = numbers.slice(1, 4).toString().charAt(0);
 // console.log(x)
 
-const fruits = ["Apple", "Cherry", "Kiwi"];
-const veggies = ["Tomato", "cauliflower", "cucumber"];
+// const fruits = ["Apple", "Cherry", "Kiwi"];
+// const veggies = ["Tomato", "cauliflower", "cucumber"];
 
-const mixed = fruits.concat(veggies);
-console.log(mixed);
+// const mixed = fruits.concat(veggies);
+// console.log(mixed);
 
 // spread operator (...)  copies a part of an array or complete
 //array to another operator
 
-const newBasked = [...fruits, ...veggies];
-console.log(newBasked);
+// const newBasked = [...fruits, ...veggies];
+// console.log(newBasked);
 
 //Destructuring -> puttings the elements of an array into variables
 
-const array = [1,2,3,4,5,6,7,8];
+// const array = [1,2,3,4,5,6,7,8];
 
-const [a,b,c,d, ...rest] = array;
+// const [a,b,c,d, ...rest] = array;
+
+// const numbers = [10,20,30,40,50,60];
+
+// const [a,b,...rest] = numbers ;
+
+// let add = a + b + rest.reduce((acc, value) => acc + value, 0);
+// // console.log(add);
+
+// const fruits = ["Apple", "Mango", "Banana"];
+// fruits.push("kiwi", "Grapes");
+// // console.log(fruits);
+
+// fruits.shift();
+// // console.log(fruits);
+
+// let check = fruits.includes("Banana");
+// // console.log(check);
+
+// let y = fruits.join("-");
+// // console.log(y);
+
+// const fruits1 = ["Apple", "Cherry", "Kiwi"];
+// let x = fruits1.slice(1, 3);
+// // console.log(x)
+
+// const numbers1 = [1,2,3];
+// let d = numbers1.toString().split(",");
+// // console.log(d);
+
+// let e = fruits1.indexOf("Kiwi");
+// // console.log(e);
+
+// const destru = [1,2,3,4,5,6,7];
+// const [one,two,...res] = destru;
+// console.log(one);
+// console.log(two);
+// console.log(res[2]);
+
+const arr = [1,2,3,4,5];
+
+arr.unshift(0);
+// console.log(arr);
+let x = arr.reverse().unshift(6);
+console.log(arr);
+
