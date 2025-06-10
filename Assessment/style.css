@@ -1,0 +1,38 @@
+.main-container {
+    margin: 20px;
+    height: auto; 
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.small-imgs {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    gap: 10px;
+}
+
+.small-imgs .img img {
+    width: 100%;
+    height: 22vh;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.big-img {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-img img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    
+}
