@@ -16,25 +16,48 @@ let valid = () => {
     errname.innerHTML = "Please enter the name";
     return false;
   }
-  
+
   //Number Validation
   else if (Num == "") {
     errnum.innerHTML = "Please enter the Number";
     return false;
-  } else if(Num.length != 10){
+  } else if (Num.length != 10) {
     errnum.innerHTML = "Please enter 10 digits only";
-     return false
-  } else if (isNaN(Num)){
+    return false;
+  } else if (isNaN(Num)) {
     errnum.innerHTML = "Please enter number Only";
-     return false
+    return false;
   }
 
-
-   else if (Email == "") {
+  //Email Validation
+  else if (Email == "") {
     erremail.innerHTML = "Please enter the E-mail";
     return false;
-  } else if (Password == "") {
+  } else if (!(Email.includes("@") && Email.includes(".com"))) {
+    erremail.innerHTML = "Please write a valid email";
+    return false;
+  }
+
+  //Password Validation
+  else if (Password == "") {
     errpass.innerHTML = "Please enter the Password";
+    return false;
+  } else if (
+    !(
+      Password.match(/[0-9]/) &&
+      Password.match(/[!@#$%*()]/) &&
+      Password.match(/[a-z]/) &&
+      Password.match(/[A-Z]/)
+    )
+  ) {
+    errpass.innerHTML = "Please enter the strong password";
+    document.querySelector("#password").value = "";
+    document.querySelector("#password").focus();
+    return false;
+  } else if (Password != Cpassword) {
+    errcpass.innerHTML = "Please enter the same password";
+    document.querySelector("#cpassword").value = "";
+    document.querySelector("#cpassword").focus();
     return false;
   } else if (Cpassword == "") {
     errcpass.innerHTML = "Please enter the Confirm Password";
