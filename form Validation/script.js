@@ -11,6 +11,13 @@ let valid = () => {
   let errpass = document.querySelector("#errpass");
   let errcpass = document.querySelector("#errcpass");
 
+  errname.innerHTML = "";
+  errnum.innerHTML = "";
+  erremail.innerHTML = "";
+  errpass.innerHTML = "";
+  errcpass.innerHTML = "";
+
+
   //Name Validation
   if (Name == "") {
     errname.innerHTML = "Please enter the name";
