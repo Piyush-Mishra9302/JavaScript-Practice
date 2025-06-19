@@ -29,11 +29,13 @@
 
 let initialValue = document.querySelector("#inp").value;
 let showValue = document.querySelector("#count");
-let count = initialValue;
+let count = Number(initialValue);
+
 
   let interval; 
 
   let inccount = () => {
+     
     // console.log(count);
     showValue.innerHTML = count;
     count++;
