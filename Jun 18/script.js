@@ -27,11 +27,15 @@
 //     clearInterval(inccount);
 // }
 
-let count = 0;
+let initialValue = document.querySelector("#inp").value;
+let showValue = document.querySelector("#count");
+let count = initialValue;
+
   let interval; 
 
   let inccount = () => {
-    console.log(count);
+    // console.log(count);
+    showValue.innerHTML = count;
     count++;
   };
 
@@ -42,4 +46,5 @@ let count = 0;
   let stop = () => {
     clearInterval(interval); 
   };
+  
 
