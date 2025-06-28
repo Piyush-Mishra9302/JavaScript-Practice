@@ -10,22 +10,22 @@
            "total": 1500
          },
            {
-            "name" : "Piyush",
-            "Adhar" : "700060930779",
+            "name" : "Aman",
+            "Adhar" : "700060930669",
             "checkin" : "2025-06-23",
             "checkout" : "2025-06-24",
             "city" : "Satna",
-            "person" : 3,
-           "total": 1500
+            "person" : 2,
+           "total": 1000
          },
            {
             "name" : "Arvind",
-            "Adhar" : "700060930779",
+            "Adhar" : "70006093cc79",
             "checkin" : "2025-06-23",
             "checkout" : "2025-06-24",
             "city" : "Satna",
-            "person" : 3,
-           "total": 1500
-         },
+            "person" : 4,
+           "total": 2000
+         }
     ]
 }
