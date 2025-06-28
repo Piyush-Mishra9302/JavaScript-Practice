@@ -1,0 +1,31 @@
+{
+    "hotel" :[
+        {
+            "name" : "Piyush",
+            "Adhar" : "700060930779",
+            "checkin" : "2025-06-23",
+            "checkout" : "2025-06-24",
+            "city" : "Satna",
+            "person" : 3,
+           "total": 1500
+         },
+           {
+            "name" : "Piyush",
+            "Adhar" : "700060930779",
+            "checkin" : "2025-06-23",
+            "checkout" : "2025-06-24",
+            "city" : "Satna",
+            "person" : 3,
+           "total": 1500
+         },
+           {
+            "name" : "Arvind",
+            "Adhar" : "700060930779",
+            "checkin" : "2025-06-23",
+            "checkout" : "2025-06-24",
+            "city" : "Satna",
+            "person" : 3,
+           "total": 1500
+         },
+    ]
+}

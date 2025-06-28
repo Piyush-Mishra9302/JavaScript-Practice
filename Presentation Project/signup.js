@@ -69,5 +69,20 @@ let signup = () => {
 
 
 let login = () => {
-  
+   let storeName = document.querySelector("#username").value.trim();
+   let storePassword = document.querySelector("#cnumber").value.trim();
+
+   let name = localStorage.getItem("name");
+   let pass = localStorage.getItem("password");
+
+   if(storeName == name && storePassword == pass){
+    location.href = "home.html";
+    return false;
+   } else{
+    alert("Wrong Username or password");
+   }
+
+   location.href = "home.html"
+   return false;
+
 }
