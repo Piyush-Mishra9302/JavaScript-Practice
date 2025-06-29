@@ -1,0 +1,274 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Jawan",
+      "language": "Hindi",
+      "genre": "Action",
+      "rating": 9.3,
+      "poster": "https://upload.wikimedia.org/wikipedia/en/3/39/Jawan_film_poster.jpg",
+      "description": "A high-stakes battle."
+    },
+    {
+      "id": 2,
+      "title": "Pathaan",
+      "language": "Hindi",
+      "genre": "Drama",
+      "rating": 7.7,
+      "poster": "https://upload.wikimedia.org/wikipedia/en/c/c3/Pathaan_film_poster.jpg",
+      "description": "An intense journey of courage."
+    },
+    {
+      "id": 3,
+      "title": "RRR",
+      "language": "Hindi",
+      "genre": "Action",
+      "rating": 7.9,
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/RRR_Poster.jpg/250px-RRR_Poster.jpg",
+      "description": "A journey of a lifetime."
+    },
+    {
+      "id": 4,
+      "title": "Shershaah",
+      "language": "Hindi",
+      "genre": "Comedy",
+      "rating": 8.8,
+      "poster": "https://upload.wikimedia.org/wikipedia/en/9/91/Shershaah_film_poster.jpg",
+      "description": "A journey of a lifetime."
+    },
+    {
+      "id": 5,
+      "title": "Drishyam 2",
+      "language": "Hindi",
+      "genre": "Romance",
+      "rating": 7.9,
+      "poster": "https://upload.wikimedia.org/wikipedia/en/9/9e/Drishyam_2_2022_film_poster.jpg",
+      "description": "A journey of a lifetime."
+    },
+    {
+      "id": 6,
+      "title": "War",
+      "language": "Hindi",
+      "genre": "Sci-Fi",
+      "rating": 7.6,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=War",
+      "description": "An epic saga."
+    },
+    {
+      "id": 7,
+      "title": "KGF Chapter 2",
+      "language": "Hindi",
+      "genre": "Drama",
+      "rating": 6.9,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=KGF+Chapter+2",
+      "description": "A thrilling chase."
+    },
+    {
+      "id": 8,
+      "title": "Gully Boy",
+      "language": "Hindi",
+      "genre": "Action",
+      "rating": 7.3,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Gully+Boy",
+      "description": "An action-packed thriller."
+    },
+    {
+      "id": 9,
+      "title": "Raazi",
+      "language": "Hindi",
+      "genre": "Thriller",
+      "rating": 8.7,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Raazi",
+      "description": "A mind-bending adventure."
+    },
+    {
+      "id": 10,
+      "title": "Andhadhun",
+      "language": "Hindi",
+      "genre": "Comedy",
+      "rating": 7.4,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Andhadhun",
+      "description": "A mind-bending adventure."
+    },
+    {
+      "id": 11,
+      "title": "Oppenheimer",
+      "language": "English",
+      "genre": "Adventure",
+      "rating": 7.6,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Oppenheimer",
+      "description": "A story of love and redemption."
+    },
+    {
+      "id": 12,
+      "title": "Inception",
+      "language": "English",
+      "genre": "Comedy",
+      "rating": 6.8,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Inception",
+      "description": "A story of love and redemption."
+    },
+    {
+      "id": 13,
+      "title": "The Dark Knight",
+      "language": "English",
+      "genre": "Action",
+      "rating": 9.0,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=The+Dark+Knight",
+      "description": "A high-stakes battle."
+    },
+    {
+      "id": 14,
+      "title": "Interstellar",
+      "language": "English",
+      "genre": "Thriller",
+      "rating": 9.5,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Interstellar",
+      "description": "A thrilling chase."
+    },
+    {
+      "id": 15,
+      "title": "Avengers: Endgame",
+      "language": "English",
+      "genre": "Romance",
+      "rating": 9.0,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Avengers:+Endgame",
+      "description": "A thrilling chase."
+    },
+    {
+      "id": 16,
+      "title": "The Matrix",
+      "language": "English",
+      "genre": "Action",
+      "rating": 9.0,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=The+Matrix",
+      "description": "An action-packed thriller."
+    },
+    {
+      "id": 17,
+      "title": "Titanic",
+      "language": "English",
+      "genre": "Thriller",
+      "rating": 8.3,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Titanic",
+      "description": "A story of love and redemption."
+    },
+    {
+      "id": 18,
+      "title": "Dune",
+      "language": "English",
+      "genre": "Adventure",
+      "rating": 9.1,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Dune",
+      "description": "An action-packed thriller."
+    },
+    {
+      "id": 19,
+      "title": "The Batman",
+      "language": "English",
+      "genre": "Action",
+      "rating": 8.5,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=The+Batman",
+      "description": "A mind-bending adventure."
+    },
+    {
+      "id": 20,
+      "title": "Joker",
+      "language": "English",
+      "genre": "Thriller",
+      "rating": 8.0,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Joker",
+      "description": "A heartfelt drama."
+    },
+    {
+      "id": 21,
+      "title": "Pushpa 2",
+      "language": "South",
+      "genre": "Romance",
+      "rating": 7.8,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Pushpa+2",
+      "description": "An action-packed thriller."
+    },
+    {
+      "id": 22,
+      "title": "Vikram",
+      "language": "South",
+      "genre": "Sci-Fi",
+      "rating": 8.5,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Vikram",
+      "description": "A story of love and redemption."
+    },
+    {
+      "id": 23,
+      "title": "Master",
+      "language": "South",
+      "genre": "Comedy",
+      "rating": 7.8,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Master",
+      "description": "A mind-bending adventure."
+    },
+    {
+      "id": 24,
+      "title": "Baahubali 2",
+      "language": "South",
+      "genre": "Adventure",
+      "rating": 8.8,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Baahubali+2",
+      "description": "A mysterious encounter."
+    },
+    {
+      "id": 25,
+      "title": "KGF Chapter 1",
+      "language": "South",
+      "genre": "Comedy",
+      "rating": 9.4,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=KGF+Chapter+1",
+      "description": "A heartfelt drama."
+    },
+    {
+      "id": 26,
+      "title": "Dasara",
+      "language": "South",
+      "genre": "Adventure",
+      "rating": 7.6,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Dasara",
+      "description": "A journey of a lifetime."
+    },
+    {
+      "id": 27,
+      "title": "Sarkaru Vaari Paata",
+      "language": "South",
+      "genre": "Romance",
+      "rating": 8.5,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Sarkaru+Vaari+Paata",
+      "description": "An intense journey of courage."
+    },
+    {
+      "id": 28,
+      "title": "Ala Vaikunthapurramuloo",
+      "language": "South",
+      "genre": "Thriller",
+      "rating": 7.5,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Ala+Vaikunthapurramuloo",
+      "description": "A story of love and redemption."
+    },
+    {
+      "id": 29,
+      "title": "Beast",
+      "language": "South",
+      "genre": "Romance",
+      "rating": 9.3,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Beast",
+      "description": "A high-stakes battle."
+    },
+    {
+      "id": 30,
+      "title": "Leo",
+      "language": "South",
+      "genre": "Drama",
+      "rating": 8.0,
+      "poster": "https://dummyimage.com/300x450/000/fff&text=Leo",
+      "description": "A thrilling chase."
+    }
+  ]
+}
