@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Navbar Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyShow - Movie Ticket Booking</title>
   <link rel="stylesheet" href="home.css" />
 </head>
 <body>
+
+  <!-- Navbar -->
   <nav class="navbar">
     <div class="logo">MyShow</div>
     <ul class="nav-links">
@@ -16,5 +18,23 @@
     </ul>
     <a href="#" class="book-btn">Book Now</a>
   </nav>
+
+  <!-- Main Container -->
+  <div class="main-container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Filter by Language</h2>
+      <button onclick="filterByLang('All')">All</button>
+      <button onclick="filterByLang('Hindi')">Hindi</button>
+      <button onclick="filterByLang('English')">English</button>
+      <button onclick="filterByLang('South')">South</button>
+    </aside>
+
+    <!-- Movie Display Area -->
+    <main id="movies-container" class="movie-display"></main>
+  </div>
+
+  <script src="/home.js"></script>
 </body>
 </html>
