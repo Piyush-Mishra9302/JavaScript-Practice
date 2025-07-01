@@ -1,31 +1,24 @@
 {
-    "hotel" :[
-        {
-            "name" : "Piyush",
-            "Adhar" : "700060930779",
-            "checkin" : "2025-06-23",
-            "checkout" : "2025-06-24",
-            "city" : "Satna",
-            "person" : 3,
-           "total": 1500
-         },
-           {
-            "name" : "Aman",
-            "Adhar" : "700060930669",
-            "checkin" : "2025-06-23",
-            "checkout" : "2025-06-24",
-            "city" : "Satna",
-            "person" : 2,
-           "total": 1000
-         },
-           {
-            "name" : "Arvind",
-            "Adhar" : "70006093cc79",
-            "checkin" : "2025-06-23",
-            "checkout" : "2025-06-24",
-            "city" : "Satna",
-            "person" : 4,
-           "total": 2000
-         }
-    ]
+  "railway": [
+    {
+      "name": "tushar",
+      "adhar": "1234567890",
+      "checkIn": "2025-06-24",
+      "checkOut": "2025-06-27",
+      "city": "ujjain",
+      "person": 4,
+      "totalPrice": 2000,
+      "id": "d0a6"
+    },
+    {
+      "name": "prashant",
+      "adhar": "1234567890",
+      "checkIn": "2025-06-21",
+      "checkOut": "2025-06-27",
+      "city": "Lahore",
+      "person": 2,
+      "totalPrice": 1000,
+      "id": "a0ad"
+    }
+  ]
 }
