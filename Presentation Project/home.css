@@ -14,13 +14,26 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #222;
-  padding: 15px 30px;
+  padding: 0px 30px;
 }
 
+/* Logo container */
 .logo {
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image styling */
+.logo img {
+  height: 100px; 
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px yellowgreen); 
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.50); 
 }
 
 .nav-links {
@@ -47,6 +60,7 @@ body {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 .book-btn:hover {
@@ -54,7 +68,31 @@ body {
 }
 
 
+/* Swiper styling */
 
+.swiper {
+  width: 100%;
+  height: 90vh; /* Full screen height - adjust as needed */
+  overflow: hidden;
+}
+
+/* Swiper wrapper and slides */
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image styling */
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crop to fill, maintaining aspect ratio */
+}
 
 /* Main Layout */
 .main-container {
@@ -65,14 +103,17 @@ body {
 
 /* Sidebar */
 .sidebar {
+  position: sticky;
+  top: 20px; /* Distance from top of the viewport */
   width: 200px;
   padding: 20px;
   color: #ffffff;
   background-color: black;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(154, 205, 50, 0.8); 
+  box-shadow: 0 4px 12px rgba(154, 205, 50, 0.8);
   height: fit-content;
 }
+
 
 .sidebar h2 {
   font-size: 16px;

@@ -113,7 +113,7 @@
       "title": "The Dark Knight",
       "language": "English",
       "genre": "Action",
-      "rating": 9.0,
+      "rating": 9,
       "poster": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
       "description": "A high-stakes battle."
     },
@@ -131,7 +131,7 @@
       "title": "Avengers: Endgame",
       "language": "English",
       "genre": "Romance",
-      "rating": 9.0,
+      "rating": 9,
       "poster": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
       "description": "A thrilling chase."
     },
@@ -140,7 +140,7 @@
       "title": "The Matrix",
       "language": "English",
       "genre": "Action",
-      "rating": 9.0,
+      "rating": 9,
       "poster": "https://upload.wikimedia.org/wikipedia/en/5/50/The_Matrix_Resurrections.jpg",
       "description": "An action-packed thriller."
     },
@@ -176,7 +176,7 @@
       "title": "Joker",
       "language": "English",
       "genre": "Thriller",
-      "rating": 8.0,
+      "rating": 8,
       "poster": "https://upload.wikimedia.org/wikipedia/en/e/e1/Joker_%282019_film%29_poster.jpg",
       "description": "A heartfelt drama."
     },
@@ -266,9 +266,21 @@
       "title": "Leo",
       "language": "South",
       "genre": "Drama",
-      "rating": 8.0,
+      "rating": 8,
       "poster": "https://upload.wikimedia.org/wikipedia/en/7/75/Leo_%282023_Indian_film%29.jpg",
       "description": "A thrilling chase."
+    }
+  ],
+  "customers": [
+    {
+      "id": "eb6b",
+      "name": "Piyush Mishra",
+      "age": 25,
+      "gender": "Male",
+      "movie": "Pathaan",
+      "seats": 2,
+      "totalPrice": 480,
+      "timestamp": "2025-07-01T18:26:59.167Z"
     }
   ]
 }

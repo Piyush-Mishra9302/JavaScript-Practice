@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MyShow - Movie Ticket Booking</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="home.css" />
 </head>
 <body>
 
   <!-- Navbar -->
   <nav class="navbar">
-    <div class="logo">MyShow</div>
+    <div class="logo"><img src="/logo.png" alt="logo"></div>
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#">Movies</a></li>
@@ -18,6 +19,23 @@
     </ul>
     <a href="#" class="book-btn" onclick="goToCallBooking()">Book On Call</a>
   </nav>
+
+  <!-- Slide section -->
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://www.filmyfenil.com/wp-content/uploads/2018/12/KGF-wallpaper.jpg" alt="KGF_C_1_Banner"></div>
+      <div class="swiper-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyM-cJhqYREVIiRVJmxxMdDvIL8l_vIsjTaQ&s" alt="Pathan_Banner"></div>
+      <div class="swiper-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfgnA1RZNfdFxY6ySBuMBWwb8VoSXTBdafg&s" alt="Bahubali_2_Banner"></div>
+      <div class="swiper-slide"><img src="https://thesouthfirst.com/wp-content/uploads/2023/03/Fsbu4dbXgAAxU6k.jpg" alt="Dusara"></div>
+      <div class="swiper-slide"><img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/04/The-Matrix-poster-green.jpg" alt="The_Matrix_Banner"></div>
+      <div class="swiper-slide"><img src="https://img.onmanorama.com/content/dam/mm/en/entertainment/movie-reviews/images/2023/10/18/leo-poster.jpg" alt="Leo_Banner"></div>  
+      <div class="swiper-slide"><img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/03/Avengers-Endgame-Header.jpg?q=70&fit=contain&w=1200&h=628&dpr=1" alt="Avengers-Endgame-banner"></div>
+
+    </div>
+     <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
 
   <!-- Main Container -->
   <div class="main-container">
@@ -36,5 +54,9 @@
   </div>
 
   <script src="/home.js"></script>
+
+  <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/swiper.js"></script>
 </body>
 </html>
