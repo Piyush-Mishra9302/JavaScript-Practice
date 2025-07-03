@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: sans-serif;
   background-color: black;
@@ -200,6 +204,109 @@ body {
 .movie-details .book-now:hover {
   background-color: #b20710;
 }
+
+/* Footer styling */
+.footer {
+  background-color: #000;
+  color: #eee;
+  padding: 40px 20px 20px;
+  box-shadow: 0 -2px 10px yellowgreen;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo {
+  width: 50px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 5px yellowgreen;
+}
+
+.footer-left h3 {
+  color: yellowgreen;
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-left p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer-links,
+.footer-contact {
+  min-width: 200px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  color: yellowgreen;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: #eee;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.footer-links ul li a:hover {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #bbb;
+  border-top: 1px solid #333;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .brand {
+    justify-content: center;
+  }
+}
+
 
 
 /* Responsive */

@@ -15,7 +15,7 @@
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#">Movies</a></li>
-      <li><a href="#">About Us</a></li>
+      <li><a href="#" onclick="dashboard()">Dashboard</a></li>
     </ul>
     <a href="#" class="book-btn" onclick="goToCallBooking()">Book On Call</a>
   </nav>
@@ -38,7 +38,7 @@
   </div>
 
   <!-- Main Container -->
-  <div class="main-container">
+  <div id="Moviess" class="main-container" >
     
     <!-- Sidebar -->
     <aside class="sidebar">
@@ -52,6 +52,42 @@
     <!-- Movie Display Area -->
     <main id="movies-container" class="movie-display"></main>
   </div>
+
+ <footer class="footer">
+  <div class="footer-container">
+    <!-- Brand + Logo -->
+    <div class="footer-left">
+      <div class="brand">
+        <img src="logo.png" alt="MyShow Logo" class="footer-logo" />
+        <h3>MyShow <span class="emoji">🎬</span></h3>
+      </div>
+      <p>Book your favorite movie tickets anytime, anywhere.</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#Moviess">Movies</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Email: support@myshow.com</p>
+      <p>Phone: +91-9999999999</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 MyShow. All rights reserved.</p>
+  </div>
+</footer>
+
+
 
   <script src="/home.js"></script>
 

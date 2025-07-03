@@ -61,3 +61,8 @@ function bookNow(title) {
   window.location.href = `booking.html?title=${encodeURIComponent(title)}`;
 }
 
+//Go to Dashboard page
+
+let dashboard = () =>{
+  window.location.href = "dashboard.html"
+}
