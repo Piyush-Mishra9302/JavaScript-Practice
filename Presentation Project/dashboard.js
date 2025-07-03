@@ -14,8 +14,8 @@ async function fetchBookings() {
       <p><strong>Gender:</strong> ${ticket.gender}</p>
       <p><strong>Seats:</strong> ${ticket.seats}</p>
       <p><strong>Total Price:</strong> ₹${ticket.totalPrice}</p>
-      <button onclick="editTicket(${ticket.id})">✏️ Edit</button>
-      <button onclick="deleteTicket(${ticket.id})">🗑️ Delete</button>
+      <button onclick="editTicket('${ticket.id}')">✏️ Edit</button>
+      <button onclick="deleteTicket('${ticket.id}')">🗑️ Delete</button>
     `;
     container.appendChild(card);
   });
