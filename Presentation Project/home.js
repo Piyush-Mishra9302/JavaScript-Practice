@@ -23,9 +23,17 @@ function displayMovies(movies) {
     return;
   }
 
-  movies.forEach(movie => {
+  movies.forEach((movie,index) => {
     const card = document.createElement('div');
     card.className = 'movie-card';
+     const mod = index % 4;
+  if (mod === 0 || mod === 1) {
+    card.setAttribute('data-aos', 'zoom-out-left');
+  } else {
+    card.setAttribute('data-aos', 'zoom-out-right');
+  }
+
+  card.setAttribute('data-aos-duration', '1000');
   card.innerHTML = `
   <img src="${movie.poster}" alt="${movie.title}" />
   <div class="movie-details">

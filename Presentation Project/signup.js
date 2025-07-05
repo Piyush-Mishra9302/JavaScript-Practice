@@ -67,22 +67,20 @@ let signup = () => {
   return false;
 };
 
-
 let login = () => {
    let storeName = document.querySelector("#username").value.trim();
-   let storePassword = document.querySelector("#cnumber").value.trim();
+   let storePassword = document.querySelector("#password").value.trim(); // Fix: was #cnumber
 
    let name = localStorage.getItem("name");
-   let pass = localStorage.getItem("password");
+   let pass = localStorage.getItem("Password");
 
-   if(storeName == name && storePassword == pass){
-    location.href = "home.html";
-    return false;
-   } else{
-    alert("Wrong Username or password");
+   if (storeName === name && storePassword === pass) {
+      location.href = "home.html";
+   } else {
+      alert("Wrong Username or Password");
    }
 
-   location.href = "home.html"
-   return false;
-
+   return false; // Prevent form from submitting
 }
+
+

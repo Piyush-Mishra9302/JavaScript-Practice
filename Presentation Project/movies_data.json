@@ -271,5 +271,16 @@
       "description": "A thrilling chase."
     }
   ],
-  "customers": []
+  "customers": [
+    {
+      "id": "f9ad",
+      "name": "Ashu Mishra",
+      "age": 29,
+      "gender": "Male",
+      "movie": "Pathaan",
+      "seats": 2,
+      "totalPrice": 480,
+      "timestamp": "2025-07-05T13:13:02.186Z"
+    }
+  ]
 }
