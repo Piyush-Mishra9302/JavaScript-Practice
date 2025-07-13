@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="calculator" style="width: 300px; margin-top: 120px;" border="2px black"  cellspacing="10px" cellpadding="10px" align="center">
+
+        <tr>
+            <td style="height: 40px;" id="screen" colspan="4"></td>
+        </tr>
+
+       
+
+        <tr>
+            <td onclick="cal('1')">1</td>
+            <td onclick="cal('2')">2</td>
+            <td onclick="cal('3')">3</td>
+            <td onclick="cal('/')">/</td>
+        </tr>
+
+        <tr>
+            <td onclick="cal('4')" >4</td>
+            <td onclick="cal('5')">5</td>
+            <td onclick="cal('6')">6</td>
+            <td onclick="cal('*')">*</td>
+        </tr>
+
+        <tr>
+            <td onclick="cal('7')">7</td>
+            <td onclick="cal('8')">8</td>
+            <td onclick="cal('9')">9</td>
+            <td onclick="cal('-')">-</td>
+        </tr>
+
+        <tr>
+            <td onclick="cal('0')">0</td>
+            <td onclick="cal('.')">.</td>
+            <td onclick="res()">=</td>
+            <td onclick="cal('+')">+</td>
+        </tr>
+         <tr >
+            <td  onclick="clr()" colspan="2">Clear </td>
+            <td  onclick="del()" colspan="2">Delete</td>
+        </tr>
+    </table>
+    
+
+    <SCript src="script.js"></SCript>
+</body>
+</html>
+
+
