@@ -1,0 +1,53 @@
+{
+  "students": [
+    {
+      "id": "0a13",
+      "roll_no": "101",
+      "name": "Piyush Mishra",
+      "city": "Satna",
+      "fees": "55000"
+    },
+    {
+      "id": "e5ef",
+      "roll_no": "102",
+      "name": "Vashu Mishra",
+      "city": "Satna",
+      "fees": "55000"
+    },
+    {
+      "id": "f9f7",
+      "roll_no": "103",
+      "name": "Arvind Tiwari",
+      "city": "Satna",
+      "fees": "55000"
+    },
+    {
+      "id": "7ed2",
+      "roll_no": "106",
+      "name": "Aman Paddu",
+      "city": "Padodi",
+      "fees": "55000"
+    },
+    {
+      "id": "0f2c",
+      "roll_no": "105",
+      "name": "Deepak",
+      "city": "Kolkata",
+      "fees": "55000"
+    },
+    {
+      "id": "a411",
+      "roll_no": "107",
+      "name": "Vineet",
+      "city": "Rewa",
+      "fees": "30000"
+    },
+    {
+      "id": "4af4",
+      "roll_no": "109",
+      "name": "Vineet Tiwari",
+      "city": "Bhopal",
+      "fees": "50000"
+    }
+  ]
+}
