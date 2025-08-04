@@ -1,8 +1,56 @@
-import React from 'react'
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 const Update = () => {
+
+    const [myData, setMyData] = useState([]);
+
+  let getdata = async () => {
+    let api = "http://localhost:3000/students";
+    const response = await axios.get(api);
+    setMyData(response.data);
+  };
+
+   useEffect(() => {
+    getdata();
+  }, []);
+
+  let deleteData = async(id) => {
+    let api = `http://localhost:3000/students/${id}`;
+    let response = await axios.delete(api);
+    alert("Data is deleted");
+    getdata(); 
+  }
+
+  let answer = myData.map((key) => {
+    return (
+      <tr key={key.id}>
+        <td>{key.roll_no}</td>
+        <td>{key.name}</td>
+        <td>{key.city}</td>
+        <td>{key.fees}</td>
+        <td>
+          <button onClick={() => {deleteData(key.id)}}>Delete</button>
+        </td>
+        <td>
+          <button>Edit</button>
+        </td>
+      </tr>
+    );
+  });
   return (
-    <h1>Welcome to the update page</h1>
+     <>
+      <h1>Display Page</h1>
+      <table border="1">
+        <tr>
+          <th>Roll No.</th>
+          <th>name</th>
+          <th>city</th>
+          <th>fees</th>
+        </tr>
+        {answer}
+      </table>
+    </>
   )
 }
 
