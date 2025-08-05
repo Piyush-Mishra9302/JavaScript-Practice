@@ -8,6 +8,7 @@ const Layout = () => {
     <Link to="insert">Insert</Link>
     <Link to="display">Display</Link>
     <Link to="update">Update</Link>
+    <Link to="editData">Update</Link>
     <Link to="about">About</Link>
     <Link to="contact">Contact</Link>
     <hr size="3" />

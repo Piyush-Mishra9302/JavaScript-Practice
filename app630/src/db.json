@@ -2,10 +2,10 @@
   "students": [
     {
       "id": "0a13",
-      "roll_no": "101",
-      "name": "Piyush Mishra",
+      "roll_no": "1002",
+      "name": "Piyush Mishra ",
       "city": "Satna",
-      "fees": "55000"
+      "fees": "666666"
     },
     {
       "id": "e5ef",
@@ -34,13 +34,6 @@
       "name": "Deepak",
       "city": "Kolkata",
       "fees": "55000"
-    },
-    {
-      "id": "a411",
-      "roll_no": "107",
-      "name": "Vineet",
-      "city": "Rewa",
-      "fees": "30000"
     },
     {
       "id": "4af4",

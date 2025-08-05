@@ -1,9 +1,11 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Update = () => {
 
     const [myData, setMyData] = useState([]);
+    const navigate = useNavigate();
 
   let getdata = async () => {
     let api = "http://localhost:3000/students";
@@ -22,6 +24,11 @@ const Update = () => {
     getdata(); 
   }
 
+  let editData = (id) =>{
+    
+    navigate(`/EditData/${id}`)
+  }
+
   let answer = myData.map((key) => {
     return (
       <tr key={key.id}>
@@ -33,7 +40,7 @@ const Update = () => {
           <button onClick={() => {deleteData(key.id)}}>Delete</button>
         </td>
         <td>
-          <button>Edit</button>
+          <button onClick={() => {editData(key.id)}}>Edit</button>
         </td>
       </tr>
     );
