@@ -1,10 +1,10 @@
 
 
-const Comp5 = ({user}) => {
+const Comp5 = () => {
   return (
    
     <>
-     <h1>Welcome : ---- {user}</h1>
+     <h1>Welcome :</h1>
     </>
   )
 }

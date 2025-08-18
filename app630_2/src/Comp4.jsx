@@ -1,11 +1,14 @@
 
 import Comp5 from './Comp5'
+import { useContext } from 'react'
+import { myContext } from './App'
 
-const Comp4 = ({user}) => {
+const Comp4 = () => {
+  const {user} = useContext(myContext);
   return (
    <>
-    <h1>Welcome to Component 2</h1>
-    <Comp5 user = {user}/>
+    <h1>Welcome to Component {user}</h1>
+    <Comp5 />
    </>
   )
 }
