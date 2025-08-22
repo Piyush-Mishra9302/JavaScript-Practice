@@ -1,10 +1,10 @@
 
 import { createRoot } from 'react-dom/client'
-import MyContext from './MyContext.jsx'
+import LoginContext from './LoginContext.jsx'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-<MyContext>
+<LoginContext>
   <App/>
-</MyContext>
+</LoginContext>
 )
