@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.outer {
+  background-color: blue;
+ 
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.middle {
+  background-color: gold;
+ 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.inner {
+    
+  background-color: red;
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}

@@ -1,6 +1,7 @@
 // import { useDispatch, useSelector } from 'react-redux'
 // import { colorChange } from './colorSlice';
 
+
 // const App = () => {
 //   const bgColor = useSelector(state => state.myColor.color);
 //   const dispatch = useDispatch();
@@ -46,14 +47,18 @@
 
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { colorChange } from "./colorSlice";
+import { useState } from "react";
 
 const App = () => {
   const bgColor = useSelector((state) => state.myColor.color);
   const dispatch = useDispatch();
+  const [txtVal, setTxtVal] = useState();
   return (
     <>
        <h1>Welcome !</h1>
-     <button onClick={() => dispatch(colorChange())}>Click Here</button>
+       Enter Color : <input type="text" onChange={(e) => {setTxtVal(e.target.value)}}/>
+     <button onClick={() => {dispatch(colorChange(txtVal))}}>Click Here</button>
        <div
        style={{
            width: "500px",

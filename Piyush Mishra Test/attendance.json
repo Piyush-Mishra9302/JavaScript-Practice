@@ -1,0 +1,25 @@
+{
+  "student": [
+    {
+      "id": "1adc",
+      "roll_no": "101",
+      "name": "Piyush Mishra",
+      "city": "Bhopal",
+      "fees": "55000"
+    },
+    {
+      "id": "3a69",
+      "roll_no": "102",
+      "name": "Vashu Mishra",
+      "city": "Satna",
+      "fees": "55000"
+    },
+    {
+      "id": "e9a9",
+      "roll_no": "103",
+      "name": "Ashu Mishra",
+      "city": "Satna",
+      "fees": "0000000"
+    }
+  ]
+}
